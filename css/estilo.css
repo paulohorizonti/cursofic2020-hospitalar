@@ -1,0 +1,23 @@
+.jumbotron{
+    background-image: url('/img/hospitalarazul.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/*Mudando o nav-link 
+.nav-link{
+    padding-top: 5rem ;
+    padding-left:  ;
+    padding-right: ;
+    padding-bottom: ;
+}*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #007bff;
+}
+
+.pr-meu{
+    position: relative;
+    margin:  25%;
+    
+}

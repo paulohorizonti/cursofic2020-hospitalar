@@ -4,60 +4,210 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilo.css">
 	<title>Página inicial - É pois é - Hospitalar</title>
 </head>
 <!--Pagina inicial projeto Fic2020 - IFTO - Campus Aragatins
 	Autor: Paulo Roberto Nogueira
 	Professor:Rogério Pereira de Sousa -->
 <body>
-	<nav class="navbar navbar-expand bg-dark"> <!--Inicio do menu -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-light"> <!--Inicio do menu -->
+	    <div class="container">
+	    	<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	    	
+	    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+	    		<ul class="navbar-nav ml-auto mr-auto">
+			    	<li><a class="nav-link" href="#">Home</a></li>
+			    	<li><a class="nav-link" href="#">Hospitais</a></li>
+			    	<li><a class="nav-link" href="#">Tipos de Hospitais</a> </li>
+			    	<!-- Aqui teremos mais intens dentro desse tiem-->
+			    	<li class="dropdown">
+			    		<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+			    		Gerenciar Hospitais</a>
+			    		<ul class="dropdown-menu">
+			    			<li>
+			    				<a class="dropdown-item" href="#">Inserir Hospitais</a>
+			    			</li>
+			    			<li>
+			    				<a class="dropdown-item" href="#">Ediar Hospitais</a>
+			    			</li>
+			    			<li>
+			    				<a  class="dropdown-item" href="#">Excluir  Hospitais</a>
+			    			</li>
+			    		</ul>
+
+			    	</li>
+			    	<li><a class="nav-link" href="#">Registro</a></li>
+			    	<li><a class="nav-link" href="#">Login</a></li>
+	  		    </ul>
+
+	    	</div> <!--Fim do colapse-->
+	    	
+
+	    </div> <!--fim div container -->
 	    
-	    <ul class="navbar-nav">
-	    	<li><a class="nav-link" href="#">Home</a></li>
-	    	<li><a class="nav-link" href="#">Hospitais</a></li>
-	    	<li><a class="nav-link" href="#">Tipos de Hospitais</a> </li>
-	    	<li><a class="nav-link" href="#">Gerenciar Hospitais</a></li>
-	    	<li><a class="nav-link" href="#">Registro</a></li>
-	    	<li><a class="nav-link" href="#">Login</a></li>
-	    </ul>
+
 
 	</nav> <!--Fim do menu -->
+	<main>
+			<!--Inicio Titulo -->
+			<section class="jumbotron">
+			<form class="input-group">
+				<input class="form-control" type="search" placeholder="Busque aqui">
+				<button class="btn btn-primary  ml-1">Pesquisar</button>
+			</form>
+			</section>
+			<!--Fim do titulo -->
+
+			<!--Inicio add recentemente -->
+			<section class="container-fluid">
+				<h2>Adiconado recentemente</h2>
+				<!--Imagens que serao dos hospitais que foram add recentemente-->
+				<div class="row">
+					<a href="#" class="col-lg-3 col-sm-6 col-md-4">
+						<figure>
+							<img src="/img/hosp.jpg" alt="Hospital 1" class="img-fluid img-thumbnail">
+							<figcaption>
+								Hospital número um em atendimento
+							</figcaption>
+						</figure>
+					</a>
 	
-	<!--Inicio Titulo -->
-	<section>
-		Título
-	</section>
-	<!--Fim do titulo -->
+					<a href="#" class="col-lg-3 col-sm-6 col-md-4">
+						<figure>
+							<img src="/img/hosp.jpg" alt="Hospital 1" class="img-fluid img-thumbnail">
+							<figcaption>
+								Hospital número um em atendimento
+							</figcaption>
+						</figure>
+					</a>
+	
+					<a href="#" class="col-lg-3 col-sm-6 col-md-4">
+						<figure>
+							<img src="/img/hosp.jpg" alt="Hospital 1" class="img-fluid img-thumbnail">
+							<figcaption>
+								Hospital número um em atendimento
+							</figcaption>
+						</figure>
+					</a>
+	
+					<a href="#" class="col-lg-3 col-sm-6 col-md-4">
+						<figure>
+							<img src="/img/hosp.jpg" alt="Hospital 1" class="img-fluid img-thumbnail">
+							<figcaption>
+								Hospital número um em atendimento
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</section>
+			<!--Fim do add recentemente -->
 
-	<!--Inicio add recentemente -->
-	<section>
-		Adiconado recentemente
-	</section>
-	<!--Fim do add recentemente -->
+			<!--Inicio Videos -->
+			<section>
+				<div class="container-flex bg-light">
 
-	<!--Inicio Melhor avaliado -->
-	<section>
-		Melhor avaliado
-	</section>
-	<!--Fim do melhor avaliado -->
+						<div class="container" > <!--Inicio do container videos-->
+							<h3>Nossos Videos</h3>
+							
+							<div class="row d-flex p-3" >
+									<figure class="col-lg-3">
+											<iframe src="https://www.youtube.com/embed/eguD5AljSCI" 
+											frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+											 allowfullscreen></iframe>
+									</figure>
+									<div class="col-lg-3">
+											<article class="ml-1 pl-4 text-justify">
+													A empresa é ...pois .... é foi criada em 1982 e significa
+													algo que voce nao quer responder.
+													A empresa é ...pois é ...foi criada em 1982
+													e significa algo que voce nao quer responder
+											</article>
+									</div>
 
-	<!--Inicio Equipe médica -->
-	<section>
-		Equipe medica
-	</section>
-	<!--Fim do equipe medica -->
+									<figure class="col-lg-3">
+											<iframe src="https://www.youtube.com/embed/eguD5AljSCI" 
+											frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+											 allowfullscreen></iframe>
+									</figure>
+									<div class="col-lg-3">
+											<article class="ml-1 pl-4 text-justify">
+													A empresa é ...pois .... é foi criada em 1982 e significa
+													algo que voce nao quer responder.
+													A empresa é ...pois é ...foi criada em 1982
+													e significa algo que voce nao quer responder
+											</article>
+									</div>
+									
+							</div>
+								
+	
+					</div>
 
+
+
+				</div> <!--fim container flex-->
+				
+				
+			</section> <!--Fim videos-->
+
+
+
+
+			<!--Inicio Melhor avaliado -->
+			<section class="avaliado bg-dark p-3">
+				<div class="container"> <!--Inicio container-->
+					<div class="row d-flex"> <!--Inicio linha-->
+						<div  class="col-lg-6 col-sm-12 text-center text-light">
+							<div class="pr-meu">
+									<h1 >Melhor Avaliado</h1>
+									<article>Este hospital foi avaliado por mais de 100 usuarios</article>
+									<button class="btn btn-primary mt-4">
+										Avaliar
+									</button>
+
+
+							</div>
+								
+
+						</div>
+						
+
+						<div class="col-lg-6 col-sm-12">
+							<figure class="mt-4">
+								
+								<img src="/img/hosp.jpg" alt="" class="img-fluid img-thumbnail">
+								<figcaption class="text-light text-center mt-2">
+										Melhor Hospital Avaliado
+									</figcaption>
+							</figure>
+						</div>
+					</div> <!--Fim linha-->
+
+				</div><!--Fim do container-->
+			</section>
+			<!--Fim do melhor avaliado -->
+
+			<!--Inicio Equipe médica -->
+			<section>
+				Equipe medica
+			</section>
+			<!--Fim do equipe medica -->
+	</main>
 	<!--inicio rodape -->
 	<footer>
 		Rodaé
 	</footer>
 	<!--Fim rodape -->
 
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+	
+<script type="text/javascript" src="js/popper.js"></script> 
 
 
-
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-	<script type="text/javascript" src="js/popper.js"></script>
 </body>
 </html>
